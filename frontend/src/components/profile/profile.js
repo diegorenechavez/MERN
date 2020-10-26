@@ -20,7 +20,7 @@ class Profile extends React.Component {
   }
 
   render() {
-    if (this.state.tweets.length === 0) {
+    if (this.props.tweets.length === 0) {
       return <div>This user has no Tweets</div>;
     } else {
       return (
